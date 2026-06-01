@@ -1,0 +1,27 @@
+[
+{
+  'lake_container': 'bronze',
+  'sql_schema': 'dbo',
+  'table': 'DimUser'
+},
+{
+  'lake_container': 'bronze',
+  'sql_schema': 'dbo',
+  'table': 'DimArtist'
+},
+{
+  'lake_container': 'bronze',
+  'sql_schema': 'dbo',
+  'table': 'DimTrack'
+},
+{
+  'lake_container': 'bronze',
+  'sql_schema': 'dbo',
+  'table': 'DimDate'
+},
+{
+  'lake_container': 'bronze',
+  'sql_schema': 'dbo',
+  'table': 'FactStream'
+}
+]
