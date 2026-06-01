@@ -1,27 +1,27 @@
 [
 {
-  'lake_container': 'bronze',
-  'sql_schema': 'dbo',
-  'table': 'DimUser'
+  'schema': 'dbo',
+  'table': 'DimUser',
+  'column': 'updated_at',
 },
 {
-  'lake_container': 'bronze',
-  'sql_schema': 'dbo',
-  'table': 'DimArtist'
+  'schema': 'dbo',
+  'table': 'DimArtist',
+  'column': 'updated_at',
 },
 {
-  'lake_container': 'bronze',
-  'sql_schema': 'dbo',
-  'table': 'DimTrack'
+  'schema': 'dbo',
+  'table': 'DimTrack',
+  'column': 'updated_at',
 },
 {
-  'lake_container': 'bronze',
-  'sql_schema': 'dbo',
-  'table': 'DimDate'
+  'schema': 'dbo',
+  'table': 'DimDate',
+  'column': 'date',
 },
 {
-  'lake_container': 'bronze',
-  'sql_schema': 'dbo',
-  'table': 'FactStream'
+  'schema': 'dbo',
+  'table': 'FactStream',
+  'column': 'stream_timestamp',
 }
 ]
