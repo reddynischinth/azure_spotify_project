@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "factoryspotifyprojectnis"
+		},
+		"azure_datalake_linked_service_accountKey": {
+			"value": ""
+		},
+		"azure_sql_linked_service_password": {
+			"value": ""
+		},
+		"azure_datalake_linked_service_properties_typeProperties_url": {
+			"value": "https://storagespotifyprojectnis.dfs.core.windows.net/"
+		},
+		"azure_sql_linked_service_properties_typeProperties_server": {
+			"value": "spotifyprojectservernis.database.windows.net"
+		},
+		"azure_sql_linked_service_properties_typeProperties_database": {
+			"value": "spotifyprojectdbnis"
+		},
+		"azure_sql_linked_service_properties_typeProperties_userName": {
+			"value": "adminnis"
+		}
+	}
+}
